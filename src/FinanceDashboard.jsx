@@ -1,62 +1,45 @@
 import React, { useState, useMemo, useCallback, useEffect } from "react";
 import {
   TrendingUp,
-  TrendingDown,
+  
   DollarSign,
-  Eye,
+  
   Edit3,
   Plus,
   Trash2,
   ArrowUpRight,
   ArrowDownLeft,
-  Calendar,
-  Filter,
+  
   Search,
   BarChart3,
   PieChart as PieChartIcon,
-  Settings,
-  LogOut,
-  ChevronDown,
+ 
   AlertCircle,
-  CheckCircle,
-  Home,
+  
+  
   Menu,
   X,
   Zap,
   Target,
   Wallet,
   CreditCard,
-  Smartphone,
-  Globe,
+ 
   Moon,
   Sun,
-  ArrowRight,
-  Download,
-  Share2,
-  Bell,
-  Clock,
-  Landmark,
-  ShoppingCart,
-  Coffee,
+  
+  
   Home as HomeIcon,
-  Plane,
-  Gamepad2,
+ 
 } from "lucide-react";
 import {
-  LineChart,
-  Line,
-  BarChart,
-  Bar,
-  PieChart,
-  Pie,
-  Cell,
+ 
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
   Legend,
   ResponsiveContainer,
-  AreaChart,
+  
   Area,
   ComposedChart,
 } from "recharts";
